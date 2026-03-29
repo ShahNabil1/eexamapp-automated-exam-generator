@@ -1,54 +1,55 @@
 # 📝 eexamapp - Advanced EdTech SaaS for Automated Exam Paper Generation
 
-> 🔒 **Confidentiality Notice:** The source code is private. This repository serves as a technical architectural showcase for the EdTech SaaS platform I engineered to solve manual examination challenges for schools, colleges, and coaching centers in Bangladesh.
+> 🔒 **Confidentiality Notice:** The source code for this project is private. This repository serves as a technical showcase for the EdTech SaaS architecture I engineered to eliminate manual exam paper creation for educational institutions in Bangladesh.
 
 ## 🚀 System Overview
-eexamapp is a highly scalable SaaS platform that automates the entire process of exam paper creation. It features a massive database of verified questions (Class 1-12, Board & Top Schools), a high-performance customization engine with LaTeX support, and a flexible subject-based subscription model.
+eexamapp is a mission-critical SaaS platform that automates the generation of high-quality exam papers. It features a massive categorized question database (Class 1-12), complex LaTeX rendering for science/math, and a flexible subject-specific subscription engine.
 
-## 🛠️ Tech Stack & Infrastructure
-* **Frontend:** React (Vite), Tailwind CSS, Shadcn UI.
-* **Backend & Auth:** Supabase (PostgreSQL) with Google OAuth integration.
-* **Math Rendering:** **LaTeX Support** for complex mathematical and scientific equations.
-* **Content Editing:** Rich Text Editor with Table and Image support.
-* **Tracking & SEO:** Meta CAPI (Server-side) & GA4 with event deduplication.
-* **Infrastructure:** Vercel (Hosting), Cloudflare (DNS/Security).
+### 🛠️ Tech Stack & Infrastructure
+
+<p align="left">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Meta_CAPI-0668E1?style=for-the-badge&logo=meta&logoColor=white" alt="Meta CAPI" />
+</p>
 
 ---
 
 ## 🧠 Core Engineering & SaaS Highlights
 
-### 1. 1-Click "Smart Paper" Generator
-* **Granular Selection:** Teachers can select Program, Class (1-12), Subject, and Question Type (MCQ, CQ, Descriptive, Short Question).
-* **Massive Database:** Instant access to an categorized library of board and premier institution questions across all chapters and groups.
-* **A-Z Print Customization:** * **Editing Mode:** Real-time editing of specific questions/topics.
-    * **Branding:** Instant institution logo/text watermarking and custom headers (Institution Name, Marks, Time).
-    * **Typography:** Multiple font options, text alignment, and layout optimization.
-    * **Answer Sheets:** Toggleable option to print complete answer keys alongside the exam paper.
+### 1. 1-Click "Smart Paper" Generator (Complex Logic)
+* **High-Precision Filtering:** Instant generation based on Program, Class, Subject, and Question Type (MCQ, CQ, Descriptive).
+* **LaTeX Integration:** Engineered a robust rendering engine for complex mathematical and scientific equations, ensuring publication-quality prints.
+* **Full Customization Engine:** * Dynamic font selection and text alignment.
+    * Automated institutional watermarking (Logo/Text).
+    * One-click answer key generation alongside the question paper.
 
-### 2. Flexible SaaS Subscription Engine
-* **Micro-Bundles:** Teachers can subscribe to a whole class or specific subjects (e.g., Math for Class 5-10 only), optimizing their costs.
-* **Validity Management:** Integrated 1-year subscription cycles with real-time status tracking on the dashboard.
-* **Demo Mode:** Admins can flag specific chapters as "Demo," allowing potential customers to test the full generation flow before purchasing.
+### 2. Micro-Bundle Subscription Engine (Business Logic)
+* **Subject-Specific Billing:** Teachers can subscribe only to the subjects they teach (e.g., Class 5-10 Math bundle only), optimizing their SaaS cost.
+* **Subscription Management:** Automated 1-year cycles with real-time dashboard notifications.
+* **Demo Access Control:** Integrated "Demo Mode" for specific chapters, allowing frictionless user onboarding.
 
-### 3. Enterprise Content Management (Admin Powerhouse)
-* **LaTeX Integrated CMS:** A robust Rich Text Editor for adding questions with complex math symbols, tables, and images.
-* **Dynamic Hierarchy:** Admins can dynamically manage the tree: **Class -> Subject -> Chapter -> Topic -> Question Type**.
-* **Status Control:** Chapters can be toggled between Active, Inactive (Maintenance), or Demo.
-* **Automated Feedback Loop:** "Report Question" system where teachers report errors, admins resolve them, and status is communicated back via a dynamic feedback page.
+### 3. Enterprise Content Management System (CMS)
+* **Rich Text Admin:** A custom-built admin editor for adding questions with tables, images, and LaTeX symbols.
+* **Data Hierarchy:** Dynamic management of **Class -> Subject -> Chapter -> Topic -> Question Type**.
+* **Feedback Loop:** Integrated "Report Question" system allowing teachers to report errors, which admins resolve in real-time.
 
-### 4. Advanced RBAC & User Management
-* **Granular Permissions:** Super Admins can assign specific moderators to manage only certain classes or specific chapters, ensuring data integrity.
-* **Financial Tracking:** Centralized view of all institutional sign-ups and active subscription revenue.
-* **Dynamic Pricing:** Admins can manage packages and pricing on the fly, including "Coming Soon" tags for upcoming modules.
+### 4. Advanced RBAC & Security
+* **Granular Permissions:** Super Admins can assign moderators to manage specific classes or chapters only.
+* **Financial Analytics:** Real-time tracking of institutional sign-ups and active subscription metrics.
 
 ### 5. Data Privacy & Technical SEO
-* **Hybrid Tracking:** Implementation of both Browser and Server-Side tracking (Meta CAPI) with deduplication to ensure data accuracy.
-* **Security:** `robots.txt` configuration to shield the administrative and creation engine from crawlers.
-* **Indexing:** Dynamic `sitemap.xml` generation for all public-facing education modules.
+* **Hybrid Tracking:** Meta CAPI (Server-side) + GA4 with deduplication for 100% data accuracy.
+* **Technical SEO:** Optimized `robots.txt` and dynamic `sitemap.xml` for automated indexing of public modules.
 
 ---
 
 ## 🤝 Let's Connect
-I build scalable, mission-critical SaaS platforms that solve real-world problems.
+I architect scalable SaaS solutions that solve complex real-world challenges.
 * 🌐 **Portfolio:** [shahnabil.com](https://shahnabil.com)
 * ✉️ **Email:** hello@shahnabil.com
